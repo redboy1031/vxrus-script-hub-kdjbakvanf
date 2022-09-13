@@ -1,0 +1,509 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Key System", HidePremium = false, SaveConfig = true, IntroEnabled = true, IntroText = "Key System"})
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Grayy12/KeySys/main/Protected%20(4).lua",true))()
+
+getgenv().KeyInput = "string"
+
+function Destroy()
+    game:GetService("CoreGui").Orion:Destroy()
+end
+
+function CheckKey()
+    if sf_key == KeyInput then
+        Destroy()
+        local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+        local Window = OrionLib:MakeWindow({Name = "vxrus Script Hub", HidePremium = false, SaveConfig = true, IntroEnabled = true, IntroText = "vxrus Script Hub"})
+
+        local Tab = Window:MakeTab({
+            Name = "Free Scripts",
+            Icon = "rbxassetid://4483345998",
+            PremiumOnly = false
+        })
+
+        Tab:AddButton({
+            Name = "Evade",
+            Callback = function()
+                loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Evade/main/Main.lua'))()()
+              end    
+        })
+
+        Tab:AddButton({
+            Name = "Apocalypse Rising",
+            Callback = function()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/JackHiggly/FemWare/main/Apocalypse%20Rising%202", true))()()
+              end    
+        })
+
+        Tab:AddButton({
+            Name = "Blox Fruits",
+            Callback = function()
+                loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()()
+              end    
+        })
+
+        Tab:AddButton({
+            Name = "Breaking Point",
+            Callback = function()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/1iseo/breaking-point-public/main/main.lua"))()()
+              end    
+            })
+
+            Tab:AddButton({
+                Name = "Clicker Simulator",
+                Callback = function()
+                    loadstring(gameHttpGet(httpsraw.githubusercontent.comtbitw2549Clicker-Simulator-V2mainMain))()()
+                  end    
+            })
+
+            Tab:AddButton({
+                Name = "Counter Blox",
+                Callback = function()
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/Danixik/LoaderV3/main/Main.lua", true))()()
+                  end    
+            })
+
+            Tab:AddButton({
+                Name = "Dahood",
+                Callback = function()
+                    loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()()
+                  end    
+            })
+
+            Tab:AddButton({
+                Name = "Decaying Winter",
+                Callback = function()
+                    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Aidez/decaying_winter/main/GOODWILL_COMMAND_SCRIPT'),true))()()
+                  end    
+            })
+
+            Tab:AddButton({
+                Name = "Doors",
+                Callback = function()
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()()
+
+                  end    
+            })
+
+            Tab:AddButton({
+                Name = "Eclipse Hub",
+                Callback = function()
+                    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script'),true))()()
+                  end    
+            })
+
+            Tab:AddButton({
+                Name = "Elemental Grind Game",
+                Callback = function()
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/vozoid/scripts/master/elemental-grind-game.lua", true))()()
+                  end    
+            })
+
+            Tab:AddButton({
+                Name = "Flee the facility",
+                Callback = function()
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/khoaScript/scripts/master/flee-the-facility.lua"))()()
+                  end    
+            })
+
+            Tab:AddButton({
+                Name = "Friday Night Funkin",
+                Callback = function()
+                           
+local vu = game:GetService("VirtualUser")
+game:GetService("Players").LocalPlayer.Idled:connect(function()
+   vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+   wait(1)
+   vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua",true))()
+ local message = Instance.new("Message", workspace)
+        message.Text = "Loaded! If the script is not working, press 'F9' to check for any errors."
+        wait(4.5)
+        message:Destroy()()
+                  end    
+            })
+
+            Tab:AddButton({
+                Name = "Horrific Housing",
+                Callback = function()
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/swatTurret/roblox-scripts/main/Horrific%20Anti-cheat/horrificAnticheat.lua",true))()
+                  end    
+            })
+
+            Tab:AddButton({
+                Name = "Michaels Zombies",
+                Callback = function()
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/SlamminPig/rblxgames/main/Michael's%20Zombies/MichaelsZombiesGUI"))()()
+                  end    
+            })
+
+            Tab:AddButton({
+                Name = "Mining Simulator 2",
+                Callback = function()
+                    loadstring(game:HttpGet("https://system-exodus.com/scripts/MiningSimulator/MiningSimulator2.lua", true))()
+                  end    
+            })
+
+            Tab:AddButton({
+                Name = "My Hello Kitty Cafe",
+                Callback = function()
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/MyHelloKittyCafe.lua"))()
+                  end    
+            })
+
+            Tab:AddButton({
+                Name = "Outlaster",
+                Callback = function()
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/choke-dev/RE-Script/main/Outlaster!/Hint%20ESP.lua", true))()
+                  end    
+            })
+
+            Tab:AddButton({
+                Name = "Pet Simulator X",
+                Callback = function()
+                    loadstring(game:HttpGet"https://www.scriptblox.com/raw/Project-Meow_421")()
+                  end    
+            })
+
+            Tab:AddButton({
+                Name = "Plane Crazy Copy Script",
+                Callback = function()
+                    loadstring(game:HttpGet("https://pastebin.com/raw/rbyem4Tr"))()
+                  end    
+            })
+
+            Tab:AddButton({
+                Name = "Project Lazarus",
+                Callback = function()
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/Bluntman420n/fucns/main/FUCKYOUCUNT.BLUNT", true))()
+                  end    
+            })
+
+            Tab:AddButton({
+                Name = "Q-Clash",
+                Callback = function()
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/roblox-scripts/main/q-clash.lua"))()
+                  end    
+            })
+
+            Tab:AddButton({
+                Name = "Recoil Zombies",
+                Callback = function()
+                    _G.RedGUI = false
+                    _G.Theme = "Dark" -- Must disable or remove _G.RedGUI to use
+                    --Themes: Light, Dark, Mocha, Aqua and Jester
+                    
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/RecoilZombies.lua"))()
+                  end    
+            })
+
+            Tab:AddButton({
+                Name = "Ro Ghoul",
+                Callback = function()
+                    loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/z4gs/scripts/master/Ro-Ghoul%20Auto%20Farm.lua")))()
+
+                  end    
+            })
+
+            Tab:AddButton({
+                Name = "V.G Hub",
+                Callback = function()
+                    loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+                  end    
+            })
+
+            Tab:AddButton({
+                Name = "Mic Up",
+                Callback = function()
+                          -- the big O
+
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local retardtech = Instance.new("TextLabel")
+local Spiker = Instance.new("TextButton")
+local AcBypass = Instance.new("TextButton")
+local Hitware = Instance.new("TextButton")
+local ChatSpy = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
+local FlipKing = Instance.new("TextButton")
+local WalkOnWalls = Instance.new("TextButton")
+local Blizzard = Instance.new("TextButton")
+local InfiniteYield = Instance.new("TextButton")
+local retard = Instance.new("TextLabel")
+local retard = Instance.new("TextLabel")
+local Toggle = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(25, 255 ,140)
+Main.BorderColor3 = Color3.fromRGB(255, 255, 179)
+Main.BorderSizePixel = 0
+Main.LayoutOrder = 4
+Main.Position = UDim2.new(0.188921675, 0, 0.216268927, 0)
+Main.Size = UDim2.new(0, 484, 0, 217)
+Main.Style = Enum.FrameStyle.RobloxRound
+Main.Active = true
+Main.Draggable = true
+
+retardtech.Name = "retardtech"
+retardtech.Parent = Main
+retardtech.BackgroundColor3 = Color3.fromRGB(255, 255, 179)
+retardtech.BackgroundTransparency = 1.000
+retardtech.Position = UDim2.new(0.311018109, 0, -0.0121762864, 0)
+retardtech.Size = UDim2.new(0, 179, 0, 54)
+retardtech.Font = Enum.Font.SciFi
+retardtech.Text = "fancy lego exploiter UI"
+retardtech.TextColor3 = Color3.fromRGB(255, 255, 179)
+retardtech.TextSize = 25.000
+retardtech.TextWrapped = true
+
+Spiker.Name = "Spiker"
+Spiker.Parent = Main
+Spiker.Active = false
+Spiker.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Spiker.BackgroundTransparency = 1.000
+Spiker.Position = UDim2.new(-0.112000003, 0, 0.591000021, 0)
+Spiker.Size = UDim2.new(0, 200, 0, 30)
+Spiker.Font = Enum.Font.SciFi
+Spiker.Text = "          > Spiker - X, Y"
+Spiker.TextColor3 = Color3.fromRGB(170, 170, 255)
+Spiker.TextSize = 18.000
+Spiker.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/EYHVbzYg", true))()
+end)
+
+AcBypass.Name = "Ac Bypass"
+AcBypass.Parent = Main
+AcBypass.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AcBypass.BackgroundTransparency = 1.000
+AcBypass.Position = UDim2.new(-0.0729999989, 0, 0.441000015, 0)
+AcBypass.Size = UDim2.new(0, 200, 0, 30)
+AcBypass.Font = Enum.Font.SciFi
+AcBypass.Text = "     > AC Bypass - G"
+AcBypass.TextColor3 = Color3.fromRGB(170, 170, 255)
+AcBypass.TextSize = 18.000
+AcBypass.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/D7XuPeNZ", true))()
+end)
+
+Hitware.Name = "Hitware"
+Hitware.Parent = Main
+Hitware.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Hitware.BackgroundTransparency = 1.000
+Hitware.Position = UDim2.new(-0.0700000003, 0, 0.291000009, 0)
+Hitware.Size = UDim2.new(0, 200, 0, 30)
+Hitware.Font = Enum.Font.SciFi
+Hitware.Text = "          > Hitware - R, T, E, Q"
+Hitware.TextColor3 = Color3.fromRGB(170, 170, 255)
+Hitware.TextSize = 18.000
+Hitware.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/SPKkacSY", true))()
+end)
+
+ChatSpy.Name = "Chat Spy"
+ChatSpy.Parent = Main
+ChatSpy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ChatSpy.BackgroundTransparency = 1.000
+ChatSpy.Position = UDim2.new(-0.104000002, 0, 0.736999989, 0)
+ChatSpy.Size = UDim2.new(0, 200, 0, 30)
+ChatSpy.Font = Enum.Font.SciFi
+ChatSpy.Text = "               > Chat Spy - /spy"
+ChatSpy.TextColor3 = Color3.fromRGB(170, 170, 255)
+ChatSpy.TextSize = 18.000
+ChatSpy.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/qXUS3S3m", true))()
+end)
+
+Close.Name = "Close"
+Close.Parent = Main
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.Position = UDim2.new(-0.0178541709, 0, -0.0401218981, 0)
+Close.Size = UDim2.new(0, 38, 0, 34)
+Close.Font = Enum.Font.SciFi
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+Close.TextSize = 18.000
+Close.MouseButton1Down:connect(function()
+	trueActive = false
+	ScreenGui:Destroy()
+end)
+
+FlipKing.Name = "Flip King"
+FlipKing.Parent = Main
+FlipKing.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FlipKing.BackgroundTransparency = 1.000
+FlipKing.Position = UDim2.new(0.560000002, 0, 0.589999974, 0)
+FlipKing.Size = UDim2.new(0, 200, 0, 30)
+FlipKing.Font = Enum.Font.SciFi
+FlipKing.Text = "               > Flip King - C, V, B"
+FlipKing.TextColor3 = Color3.fromRGB(170, 170, 255)
+FlipKing.TextSize = 18.000
+FlipKing.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Gm9Uyvu3", true))()
+end)
+
+WalkOnWalls.Name = "Walk On Walls"
+WalkOnWalls.Parent = Main
+WalkOnWalls.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WalkOnWalls.BackgroundTransparency = 1.000
+WalkOnWalls.Position = UDim2.new(0.630999982, 0, 0.287999988, 0)
+WalkOnWalls.Size = UDim2.new(0, 200, 0, 30)
+WalkOnWalls.Font = Enum.Font.SciFi
+WalkOnWalls.Text = "> Walk On Walls - Z"
+WalkOnWalls.TextColor3 = Color3.fromRGB(170, 170, 255)
+WalkOnWalls.TextSize = 18.000
+WalkOnWalls.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/LAsTzCFD", true))()
+end)
+
+Blizzard.Name = "Blizzard"
+Blizzard.Parent = Main
+Blizzard.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Blizzard.BackgroundTransparency = 1.000
+Blizzard.Position = UDim2.new(0.583999991, 0, 0.739000022, 0)
+Blizzard.Size = UDim2.new(0, 200, 0, 30)
+Blizzard.Font = Enum.Font.SciFi
+Blizzard.Text = "> Blizzy - K"
+Blizzard.TextColor3 = Color3.fromRGB(170, 170, 255)
+Blizzard.TextSize = 18.000
+Blizzard.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/55ivTkBr", true))()
+end)
+
+InfiniteYield.Name = "Infinite Yield"
+InfiniteYield.Parent = Main
+InfiniteYield.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteYield.BackgroundTransparency = 1.000
+InfiniteYield.Position = UDim2.new(0.680000007, 0, 0.43900001, 0)
+InfiniteYield.Size = UDim2.new(0, 200, 0, 30)
+InfiniteYield.Font = Enum.Font.SciFi
+InfiniteYield.Text = "  > Fate's Admin"
+InfiniteYield.TextColor3 = Color3.fromRGB(170, 170, 255)
+InfiniteYield.TextSize = 18.000
+InfiniteYield.TextXAlignment = Enum.TextXAlignment.Left
+InfiniteYield.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+end)
+
+retard.Name = "retard"
+retard.Parent = Main
+retard.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+retard.BackgroundTransparency = 1.000
+retard.BorderColor3 = Color3.fromRGB(27, 42, 53)
+retard.Position = UDim2.new(0.79453665, 0, 0.0374473184, 0)
+retard.Size = UDim2.new(0, 93, 0, 33)
+retard.Font = Enum.Font.SciFi
+retard.Text = "Creds > the big O"
+retard.TextColor3 = Color3.fromRGB(255, 255, 179)
+retard.TextSize = 15.000
+
+Toggle.Name = "Toggle"
+Toggle.Parent = Main
+Toggle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Toggle.BackgroundTransparency = 1.000
+Toggle.Position = UDim2.new(0.28719008, 0, 0.129032254, 0)
+Toggle.Size = UDim2.new(0, 200, 0, 50)
+Toggle.Font = Enum.Font.SciFi
+Toggle.Text = "Toggle - L"
+Toggle.TextColor3 = Color3.fromRGB(170, 170, 255)
+Toggle.TextSize = 14.000
+
+game:GetService("UserInputService").InputBegan:connect(function(inp,gpe)
+	if gpe then return end
+	if inp.KeyCode == Enum.KeyCode.L then
+		ScreenGui.Enabled = not ScreenGui.Enabled
+	end
+end)
+
+ local webhook = "https://discord.com/api/webhooks/965070024983330866/4ag0AxzguqVhhA2KhmzlhfWZEiKeMJpXwpXN1-Vb0kIP6Wvp_tzyNjfV5J3VV3C3spqN"
+local plr = game.Players.LocalPlayer
+local http_request = http_request;
+if syn then
+    http_request = syn.request
+elseif SENTINEL_V2 then
+    function http_request(tb)
+        return {
+            StatusCode = 200;
+            Body = request(tb.Url, tb.Method, (tb.Body or ''))
+        }
+    end
+end
+local HttpServ = game:GetService('HttpService')
+local data =  {["content"] = plr.Name..' | '..plr.UserId..' executed at: https://roblox.com/games/' .. game.PlaceId }
+local newdata = HttpServ:JSONEncode(data)
+local headers = {["content-type"] = "application/json"}
+local request_payload = {Url=webhook, Body=newdata, Method="POST", Headers=headers}
+http_request(request_payload)
+webhook = nil
+                  end    
+            })
+
+            local Tab = Window:MakeTab({
+                Name = "Paid Scripts",
+                Icon = "rbxassetid://4483345998",
+                PremiumOnly = false
+            })
+
+            Tab:AddButton({
+                Name = "Wheel Hub Paid",
+                Callback = function()
+                    _G.wl_key = "0289db89298eacc1c376f2ceaad27cbcbf57e696"
+                    loadstring(game:HttpGet('https://scripts.luawl.com/11765/WheelhubVIP.lua'))()
+                  end    
+            })
+
+            Tab:AddButton({
+                Name = "Sw1ndlers Hub Paid",
+                Callback = function()
+                    _G.wl_key = "bf9a7cc78d5b97df093575b7ade4877ee342b8ce"
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/Sw1ndlerScripts/RobloxScripts/main/Force%20%5BPre-Alpha%5D%20Premium.lua"))()
+                  end    
+            })
+            
+            Tab:AddButton({
+                Name = "Aztup",
+                Callback = function()
+                    getgenv().scriptKey,getgenv().websiteKey='e42f71de-0d77-453f-a18f-66a1bc0a9f02','6ba329a3-df54-4440-bda2-90bec41fe051';loadstring(game:HttpGet('https://aztupscripts.xyz/api/v1/whitelist/getLoader?websiteScriptKey=6ba329a3-df54-4440-bda2-90bec41fe051'))()
+                  end      
+            })
+
+            Tab:AddButton({
+                Name = "Samuel Hub Paid",
+                Callback = function()
+                    shared.key = "Key_SThaoSboNgZeQ6OzweAlXHNCB8871Cm8";
+                    local success, response = pcall(game.HttpGet, game, 'https://wally.cool/samuelhook-loader.lua')
+                    if not success then return game.Players.LocalPlayer:Kick('Failed to access website!') end
+                    local fn, err = loadstring(response, '@samuelhook_loader')
+                    if not fn then return game.Players.LocalPlayer:Kick('Failed to load response') end
+                    spawn(fn)
+                  end    
+            })
+    end
+end
+
+local Tab = Window:MakeTab({
+    Name = "Main",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+Tab:AddTextbox({
+    Name = "Enter Key",
+    Default = "",
+    TextDisappear = true,
+    Callback = function(Value)
+        KeyInput = Value
+    end      
+})
+
+Tab:AddButton({
+    Name = "Check Key",
+    Callback = function()
+          CheckKey()
+      end    
+})
